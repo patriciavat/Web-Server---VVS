@@ -1,0 +1,25 @@
+
+  // IntelliJ API Decompiler stub source generated from a class file
+  // Implementation of methods is not available
+
+package webserver;
+
+public class WebServer extends java.lang.Thread {
+    protected java.net.Socket clientSocket;
+    private static final java.lang.String INDEX = "C:\\Users\\CRW_GARAJ\\Desktop\\WebServer\\html\\index.html";
+    private static final java.lang.String ERROR = "C:\\Users\\CRW_GARAJ\\Desktop\\WebServer\\html\\error.html";
+    private static final java.lang.String STOPPED = "C:\\Users\\CRW_GARAJ\\Desktop\\WebServer\\html\\stopped.html";
+    private static final java.lang.String MAINTENANCE = "C:\\Users\\CRW_GARAJ\\Desktop\\WebServer\\html\\maintenance.html";
+
+    public static void main(java.lang.String[] args) throws java.io.IOException { /* compiled code */ }
+
+    private WebServer(java.net.Socket clientSoc) { /* compiled code */ }
+
+    public void run() { /* compiled code */ }
+
+    private void Running(java.io.PrintWriter out, java.lang.String method, java.lang.String requestedFile) { /* compiled code */ }
+
+    private void Maintenance(java.io.PrintWriter out) { /* compiled code */ }
+
+    private void Stopped(java.io.PrintWriter out) { /* compiled code */ }
+}
